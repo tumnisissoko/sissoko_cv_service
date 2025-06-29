@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sissoko CV Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #444;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      margin-top: 20px;
+      background: #0066cc;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #004d99;
+    }
+    .contact {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Sissoko CV Service</h2>
+    <p>Fill out this form and we'll create your CV and send it to you!</p>
+    <form action="https://formsubmit.co/tumanisissokoboyz@gmail.com" method="POST">
+      <label>Full Name</label>
+      <input type="text" name="Full Name" required>
+
+      <label>Email Address</label>
+      <input type="email" name="Email" required>
+
+      <label>Phone Number</label>
+      <input type="text" name="Phone Number" required>
+
+      <label>Education Background</label>
+      <textarea name="Education" required></textarea>
+
+      <label>Work Experience (if any)</label>
+      <textarea name="Experience"></textarea>
+
+      <label>Languages Spoken</label>
+      <input type="text" name="Languages">
+
+      <label>Other Info / Skills</label>
+      <textarea name="Skills"></textarea>
+
+      <!-- Optional WhatsApp notification -->
+      <input type="hidden" name="_next" value="https://wa.me/2207318810?text=Hello%20Sissoko%2C%20I%20have%20submitted%20my%20CV%20info.">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit">Submit CV Request</button>
+    </form>
+
+    <div class="contact">
+      <p>📧 Email: tumanisissokoboyz@gmail.com</p>
+      <p>📱 WhatsApp: +220 7318810</p>
+    </div>
+  </div>
+</body>
+</html>
